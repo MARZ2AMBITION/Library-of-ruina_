@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 9100340848832533290
     second: AfterIcon_7_1
+  - first:
+      213: 1172510644879432186
+    second: AfterIcon_7_2
+  - first:
+      213: -3388169746715507526
+    second: AfterIcon_7_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -141,7 +147,7 @@ TextureImporter:
         width: 207
         height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,7 +168,7 @@ TextureImporter:
         width: 216
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,6 +176,48 @@ TextureImporter:
       bones: []
       spriteID: a23d3ad49c7ea4e70800000000000000
       internalID: 9100340848832533290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AfterIcon_7_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 785
+        width: 204
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af917632838954010800000000000000
+      internalID: 1172510644879432186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AfterIcon_7_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 774
+        width: 226
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40c40119dcaf0d0800000000000000
+      internalID: -3388169746715507526
       vertices: []
       indices: 
       edges: []

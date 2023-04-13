@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0eb19608052823b4aa64aef284a1aacf
+guid: 11014335ca3f1b84193cf90289e1be5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 856133335462539309
-    second: DiceCard_White_Merge_3
+      213: -5913857669722069800
+    second: DiceCard_White_Merge(1)_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,85 +130,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DiceCard_White_Merge_0
+      name: DiceCard_White_Merge(1)_0
       rect:
         serializedVersion: 2
-        x: 477
-        y: 835
-        width: 508
-        height: 677
+        x: 488
+        y: 830
+        width: 521
+        height: 684
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3072f0142ee7a5460800000000000000
-      internalID: 7231231661915973379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DiceCard_White_Merge_1
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 4
-        width: 591
-        height: 747
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dc138881d4cf8b60800000000000000
-      internalID: 7750629887945415892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DiceCard_White_Merge_2
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 1787
-        width: 130
-        height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40116ba642e7749e0800000000000000
-      internalID: -1637201244651646716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DiceCard_White_Merge_3
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 1783
-        width: 139
-        height: 133
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d207d9c8bb891eb00800000000000000
-      internalID: 856133335462539309
+      spriteID: 8d42ff748c1cdeda0800000000000000
+      internalID: -5913857669722069800
       vertices: []
       indices: 
       edges: []

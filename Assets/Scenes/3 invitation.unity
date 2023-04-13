@@ -2789,7 +2789,7 @@ GameObject:
   - component: {fileID: 1624371823}
   - component: {fileID: 1624371822}
   m_Layer: 5
-  m_Name: "\uC77C\uBC18\uCD08\uB300 RadMist"
+  m_Name: "\uC77C\uBC18\uCD08\uB300 \uD478\uB978\uC794\uD5A5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2878,7 +2878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5263996222680768729, guid: 8cfbb8ae7d386bf489fc51ea72b2bd09, type: 3}
+  m_Sprite: {fileID: 1172510644879432186, guid: 8cfbb8ae7d386bf489fc51ea72b2bd09, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

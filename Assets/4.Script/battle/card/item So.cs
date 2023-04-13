@@ -2,7 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class battle : MonoBehaviour
+
+[System.Serializable]
+public class Item
+{
+
+}
+public class itemSo : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
