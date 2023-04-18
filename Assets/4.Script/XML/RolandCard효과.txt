@@ -1,0 +1,22 @@
+  <!-- black silence -->
+  <BattleCardAbility ID="blackSilenceSpecial">
+    <Desc>이 책장은 검은침묵의 전투 책장 9종류를 모두 사용했을 때 사용 가능</Desc>
+    <Desc>공격 적중시 다음 막에 출혈 5, 속박 3, 취약 3 부여</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="blackSilenceSpecialDice">
+    <Desc>[합 승리] 대상의 모든 주사위 파괴</Desc>
+  </BattleCardAbility>
+
+
+<BattleCardAbility ID="strength1">
+    <Desc>[적중시] 다음 막에 힘 1를 얻음</Desc>
+  </BattleCardAbility>
+
+
+<BattleCardAbility ID="drawCard">
+    <Desc>[사용시] 책장을 1장 뽑음</Desc>
+  </BattleCardAbility>
+
+  <BattleCardAbility ID="energy3">
+    <Desc>[사용시] 빛 3 회복</Desc>
+  </BattleCardAbility>
