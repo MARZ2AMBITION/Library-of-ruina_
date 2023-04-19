@@ -1,41 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Xml;
 
-public class CardManager : MonoBehaviour
+public class XMLParser : MonoBehaviour
 {
+    public TextAsset xmlFile; // 파싱할 XML 파일
 
-    public static CardManager Inst { get; private set; }
-    private void Awake() => Inst = this;
-    [SerializeField] itemSO itemSO;
-    [SerializeField] GameObject cardprefeb;
-    [SerializeField] List<Card> mycard;
-    [SerializeField] List<Card> otherCard;
-
-    List<item> itemBuffer;
-
-    void SetitemBuffer()
-    {
-        itemBuffer = new List<item>();
-        for (int i=0; i< itemSO.items.Length;i++)
-        {
-            item item = itemSO.items[i];
-            for (int j = 0; j < item.ATK; j++)
-                itemBuffer.Add(item);
-        }
-        for (int i=0; i<itemBuffer.Count; i++)
-        {
-            int rand = Random.Range(i, itemBuffer.Count);
-            item temp = itemBuffer[i];
-            itemBuffer[i] = itemBuffer[rand];
-            itemBuffer[rand] = temp;
-        }
-            
-    }
-    // Start is called before the first frame update
     void Start()
     {
-        SetitemBuffer();
-    }
+        // XML 파일 로드
+        XmlDocument xmlDoc = new XmlDocument();
+        xmlDoc.LoadXml(xmlFile.text);
 
+        // XML 요소 순회 및 정보 추출
+        XmlNodeList battleCardDescNodes = xmlDoc.SelectNodes("/BattleCardAbilityDescRoot/BattleCardDesc");
+
+        foreach (XmlNode battleCardDescNode in battleCardDescNodes)
+        {
+            string id = battleCardDescNode.Attributes["ID"].Value;
+            string localizedName = battleCardDescNode.SelectSingleNode("LocalizedName").InnerText;
+
+            Debug.Log("ID: " + id + ", LocalizedName: " + localizedName);
+        }
+    }
 }
+
+

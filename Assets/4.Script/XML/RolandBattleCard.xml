@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <BattleCardDesc ID="702001">
+    <LocalizedName>알라스 공방</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702002">
+    <LocalizedName>휠스 인더스트리</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702003">
+    <LocalizedName>느티나무 공방</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702004">
+    <LocalizedName>늙은소년 공방</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702005">
+    <LocalizedName>묵 공방</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702006">
+    <LocalizedName>랑아 공방</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702007">
+    <LocalizedName>크리스탈 아틀리에</LocalizedName>
+  </BattleCardDesc>
+  <BattleCardDesc ID="702008">
+    <LocalizedName>로직 아틀리에</LocalizedName>
+  </BattleCardDesc>
+
+  <BattleCardDesc ID="702009">
+    <LocalizedName>뒤랑달</LocalizedName>
+  </BattleCardDesc>
+
+  <BattleCardDesc ID="702010">
+    <LocalizedName>Furioso</LocalizedName>
+  </BattleCardDesc>
+  
+</BattleCardAbilityDescRoot>
+
+

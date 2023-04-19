@@ -13,33 +13,48 @@ MonoBehaviour:
   m_Name: itemSO
   m_EditorClassIdentifier: 
   items:
-  - name: "\uC54C\uB77C\uC2A4"
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
-  - name: 
-    ATK: 0
-    DTK: 0
+  - name: ' Ranga Workshop'
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: Zelkova Workshop
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: ' Old Boys Workshop'
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: Allas Workshop
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: Mook Workshop
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: Atelier Logic
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: Crystal Atelier
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 15
+  - name: Wheels Industry
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 10
+  - name: Durandal
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+    percent: 15
