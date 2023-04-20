@@ -1,27 +1,49 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using System.Xml;
 
-public class XMLParser : MonoBehaviour
+public class CardManager : MonoBehaviour
 {
-    public TextAsset xmlFile; // 파싱할 XML 파일
+    public static CardManager Inst { get; private set; }
+    private void Awake() => Inst = this;
 
-    void Start()
+    [SerializeField] itemSO itemSO;
+
+    List<Item> itemBuffer;
+
+    public Item popItem()
     {
-        // XML 파일 로드
-        XmlDocument xmlDoc = new XmlDocument();
-        xmlDoc.LoadXml(xmlFile.text);
+        if (itemBuffer.Count == 0)
+            setupItemBuffer();
 
-        // XML 요소 순회 및 정보 추출
-        XmlNodeList battleCardDescNodes = xmlDoc.SelectNodes("/BattleCardAbilityDescRoot/BattleCardDesc");
-
-        foreach (XmlNode battleCardDescNode in battleCardDescNodes)
+        Item item = itemBuffer[0];
+        itemBuffer.RemoveAt(0);
+        return item;
+    }
+    void setupItemBuffer()
+    {
+        itemBuffer = new List<Item>();
+        for (int i=0; i<itemSO.items.Length;i++)
         {
-            string id = battleCardDescNode.Attributes["ID"].Value;
-            string localizedName = battleCardDescNode.SelectSingleNode("LocalizedName").InnerText;
-
-            Debug.Log("ID: " + id + ", LocalizedName: " + localizedName);
+            Item item = itemSO.items[i];
+            for (int j = 0; j < item.percent; j++)
+                itemBuffer.Add(item);
+        }
+        for (int i =0; i <itemBuffer.Count;i++)
+        {
+            int rand = Random.Range(i, itemBuffer.Count);
+            Item temp = itemBuffer[i];
+            itemBuffer[i] = itemBuffer[rand];
+            itemBuffer[rand] = temp;
         }
     }
+    void Start()
+    {
+        setupItemBuffer();
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+            print(popItem().name);
+    }
 }
-
-
