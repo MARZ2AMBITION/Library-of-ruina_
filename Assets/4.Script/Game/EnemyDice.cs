@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class EnemyDice : MonoBehaviour
+public class AnemyDice : MonoBehaviour
 {
     [SerializeField]
     TextMeshProUGUI AnemyDice1;

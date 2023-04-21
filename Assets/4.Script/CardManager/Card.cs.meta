@@ -3,7 +3,17 @@ guid: 0a5f3a61cc319284d9c8effddd3c66fe
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - card: {instanceID: 0}
+  - Character: {instanceID: 0}
+  - nameTMP: {instanceID: 0}
+  - costTMP: {instanceID: 0}
+  - attackTMP: {instanceID: 0}
+  - attack2TMP: {instanceID: 0}
+  - attack3TMP: {instanceID: 0}
+  - shieldTMP: {instanceID: 0}
+  - cardFront: {fileID: -5913857669722069800, guid: 11014335ca3f1b84193cf90289e1be5e, type: 3}
+  - cardBack: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

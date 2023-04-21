@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0eb19608052823b4aa64aef284a1aacf
+guid: f5f555ea073c5da46a6f6339753b5677
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 856133335462539309
-    second: DiceCard_White_Merge_3
+      213: 1161201145128540330
+    second: Icons_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,64 +130,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DiceCard_White_Merge_1
+      name: Icons_0
       rect:
         serializedVersion: 2
-        x: 133
-        y: 4
-        width: 465
-        height: 679
+        x: 302
+        y: 561
+        width: 164
+        height: 183
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc138881d4cf8b60800000000000000
-      internalID: 7750629887945415892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DiceCard_White_Merge_2
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 1787
-        width: 130
-        height: 125
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40116ba642e7749e0800000000000000
-      internalID: -1637201244651646716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DiceCard_White_Merge_3
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 1783
-        width: 139
-        height: 133
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d207d9c8bb891eb00800000000000000
-      internalID: 856133335462539309
+      spriteID: aa8d9280a4a6d1010800000000000000
+      internalID: 1161201145128540330
       vertices: []
       indices: 
       edges: []

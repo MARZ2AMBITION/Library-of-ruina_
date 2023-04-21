@@ -8,6 +8,9 @@ public class CardManager : MonoBehaviour
     private void Awake() => Inst = this;
 
     [SerializeField] itemSO itemSO;
+    [SerializeField] GameObject cardprefebs;
+    [SerializeField] List<Card> myCards;
+    [SerializeField] List<Card> otherCards;
 
     List<Item> itemBuffer;
 
@@ -45,5 +48,29 @@ public class CardManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Keypad1))
             print(popItem().name);
+        AddCard(true);
+    }
+    void AddCard(bool isMine)
+    {
+
+        var cardObject = Instantiate(cardprefebs, Vector3.zero, utile.QI);
+        var card = cardObject.GetComponent<Card>();
+        card.Setup(popItem(), isMine);
+        (isMine ? myCard : otherCards).Add(Card);
+        
+        SetMostFrontOrder(isMine);
+    }
+    void SetMostFrontOrder(bool isMine)
+    {
+        int count = isMine ? myCards.count : otherCards.Count;
+        for (int i =0; i< count; i++)
+        {
+            var targerCard= isMine.count : otherCards.Count;
+            for (int i=0; i<count;i++)
+            {
+                var targerCard = isMine ? myCard[i] : ohterCardsw[i];
+                targerCard?.GetComponent<order>().SetMostFrontOrder(i);
+            }
+        }
     }
 }

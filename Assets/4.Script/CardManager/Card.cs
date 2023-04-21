@@ -8,10 +8,12 @@ public class Card : MonoBehaviour
     [SerializeField] SpriteRenderer card;
     [SerializeField] SpriteRenderer Character;
     [SerializeField] TMP_Text nameTMP;
+    [SerializeField] TMP_Text costTMP;
     [SerializeField] TMP_Text attackTMP;
-    [SerializeField] TMP_Text healthTMP;
+    [SerializeField] TMP_Text attack2TMP;
+    [SerializeField] TMP_Text attack3TMP;
+    [SerializeField] TMP_Text shieldTMP;
     [SerializeField] Sprite cardFront;
-    [SerializeField] Sprite cardBack;
 
     public Item item;
     bool isfront;
@@ -26,7 +28,7 @@ public class Card : MonoBehaviour
             Character.sprite = this.item.sprite;
             nameTMP.text = this.item.name;
             attackTMP.text = this.item.attack.ToString();
-            healthTMP.text = this.item.health.ToString();
+            shieldTMP.text = this.item.shield.ToString();
 
         }
         else
@@ -34,8 +36,12 @@ public class Card : MonoBehaviour
             card.sprite = cardBack;
             nameTMP.text = "";
             attackTMP.text = "";
-            healthTMP.text = "";
+            shieldTMP.text = "";
         }
+    }
+    public void MoveTransfrom()
+    {
+    
     }
 
 

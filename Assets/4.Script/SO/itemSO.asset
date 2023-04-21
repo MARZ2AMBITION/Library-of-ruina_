@@ -14,47 +14,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - name: ' Ranga Workshop'
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 7
+    attack2: 6
+    attack3: 7
+    shield: 0
+    sprite: {fileID: 21300000, guid: 067a32950c39d094fa10424467cc07ba, type: 3}
     percent: 10
   - name: Zelkova Workshop
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 7
+    attack2: 6
+    attack3: 0
+    shield: 0
+    sprite: {fileID: 21300000, guid: 23385753a6e3831429e6f2565fd3a9e8, type: 3}
     percent: 10
   - name: ' Old Boys Workshop'
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 9
+    attack2: 0
+    attack3: 0
+    shield: 8
+    sprite: {fileID: 21300000, guid: 031e04075a72a80448cb0bbd263d3967, type: 3}
     percent: 10
   - name: Allas Workshop
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 8
+    attack2: 7
+    attack3: 0
+    shield: 0
+    sprite: {fileID: 21300000, guid: 2be5c1c9ade4730489d60ca74e30bd0f, type: 3}
     percent: 10
   - name: Mook Workshop
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 15
+    attack2: 0
+    attack3: 0
+    shield: 0
+    sprite: {fileID: 21300000, guid: c5189e15c43ff974a88f56fffff984e1, type: 3}
     percent: 10
   - name: Atelier Logic
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 6
+    attack2: 7
+    attack3: 12
+    shield: 0
+    sprite: {fileID: 21300000, guid: 0ac9bc42a407fea4384f368be590948b, type: 3}
     percent: 10
   - name: Crystal Atelier
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 11
+    attack2: 11
+    attack3: 0
+    shield: 10
+    sprite: {fileID: 21300000, guid: 20453abc38fa82045b5d93a4b338b642, type: 3}
     percent: 15
   - name: Wheels Industry
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 24
+    attack2: 0
+    attack3: 0
+    shield: 10
+    sprite: {fileID: 21300000, guid: 3ffd76020b4b4724198672b0d86ce996, type: 3}
     percent: 10
   - name: Durandal
-    attack: 0
-    health: 0
-    sprite: {fileID: 0}
+    attack: 9
+    attack2: 9
+    attack3: 0
+    shield: 0
+    sprite: {fileID: 21300000, guid: b5885020ffbe17145b54068c19159ed3, type: 3}
     percent: 15
